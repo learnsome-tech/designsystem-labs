@@ -1,0 +1,4 @@
+Default: rounded font-medium transition bg-blue-600 text-white h-8 px-3 text-xs
+Danger: rounded font-medium transition bg-red-600 text-white h-12 px-6 text-base
+Override px-8: true
+Removed px-3: true

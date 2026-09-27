@@ -1,0 +1,5 @@
+White on black: 21.00:1
+Blue on white: 5.18:1
+Full motion: 250ms
+Reduced motion: 0ms
+Reduced transition: none

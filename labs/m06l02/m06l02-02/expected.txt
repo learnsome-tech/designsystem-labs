@@ -1,0 +1,5 @@
+Clean match diffs: 0
+Clean match pct: 0.0%
+Regressed diffs: 1
+Regressed pct: 12.5%
+Has visual regression: true

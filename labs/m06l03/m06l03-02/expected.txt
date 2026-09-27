@@ -1,0 +1,5 @@
+Package: @ds/core
+ESM target: ./dist/index.mjs
+CJS target: ./dist/index.cjs
+Types target: ./dist/index.d.ts
+Side effect css: true

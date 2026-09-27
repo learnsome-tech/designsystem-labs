@@ -1,0 +1,7 @@
+Polite role: status
+Polite live: polite
+Polite atomic: true
+Polite text: Saved to cloud
+Alert role: alert
+Alert live: assertive
+Alert text: Connection lost

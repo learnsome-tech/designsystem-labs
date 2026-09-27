@@ -1,0 +1,4 @@
+Light token: oklch(90% 0.05 240)
+Midtone token: oklch(50% 0.15 240)
+Dark token: oklch(10% 0.05 240)
+Uniform curve: true

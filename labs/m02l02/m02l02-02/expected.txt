@@ -1,0 +1,4 @@
+Variable: #2563eb
+Accent: oklch(65% 0.22 140)
+Utility bg: background-color: var(--color-brand);
+Utility text: color: var(--color-accent);

@@ -1,0 +1,5 @@
+Roving 0: 0
+Roving 1: -1
+After next, Roving 1: 0
+Virtual none: undefined
+Virtual active: opt-1

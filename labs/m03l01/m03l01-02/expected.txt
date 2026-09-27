@@ -1,0 +1,5 @@
+Initial open: false
+Aria: false
+Content hidden: true
+Toggled open: true
+Aria now: true

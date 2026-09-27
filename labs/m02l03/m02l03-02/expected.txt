@@ -1,0 +1,4 @@
+Resolved: dark
+Class: dark
+High contrast: high-contrast
+Theme attr: high-contrast

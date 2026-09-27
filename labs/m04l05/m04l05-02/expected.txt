@@ -1,0 +1,4 @@
+Initial: edit
+Next (skips disabled): share
+Next again: delete
+Wrap around: edit

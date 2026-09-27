@@ -1,0 +1,4 @@
+Native: <button class="btn" id="b1">Click</button>
+Has button: false
+Has anchor: true
+Merged class: true

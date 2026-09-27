@@ -1,0 +1,4 @@
+Tab role: true
+Selected: true
+Panel role: true
+Panel text: true

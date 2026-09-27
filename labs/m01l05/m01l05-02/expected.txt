@@ -1,0 +1,4 @@
+Base body font size: 16px
+Headline font size: 31.3px
+Fluid CSS clamp rule: clamp(2rem, 1.25rem + 3.00vw, 3.5rem)
+Bounds verified: true

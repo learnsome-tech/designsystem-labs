@@ -1,0 +1,5 @@
+Normal: bottom at y=140
+Flipped: top at y=500
+Tooltip attr: t1
+Popover popup: dialog
+Popover open: true

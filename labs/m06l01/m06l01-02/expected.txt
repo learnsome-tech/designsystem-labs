@@ -1,0 +1,4 @@
+Rendered tag: button
+Button label: Checkout
+Button disabled: false
+Play executed: true

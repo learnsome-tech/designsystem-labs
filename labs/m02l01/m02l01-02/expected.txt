@@ -1,0 +1,3 @@
+Light theme background: #fff
+Dark theme background: #111
+Theme dynamically swapped: true

@@ -1,0 +1,4 @@
+Has box: true
+Has heading: true
+Contains title: true
+Contains text: true

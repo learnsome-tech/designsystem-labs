@@ -1,0 +1,4 @@
+Global raw token: #3b82f6
+Semantic alias resolved: #3b82f6
+Component token resolved: #3b82f6
+Tier chain matches: true

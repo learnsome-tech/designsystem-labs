@@ -1,0 +1,4 @@
+Switch role: true
+Switch checked: true
+Input invalid: true
+Input alert: true
