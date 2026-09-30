@@ -1,19 +1,35 @@
-# Keyboard Navigation Protocols: Roving Tabindex & Virtual Focus
+# m05l02 · Keyboard Navigation Protocols: Roving Tabindex & Virtual Focus
 
-**Course**: [Design Systems & Component Engineering](https://learnsome.tech/courses/designsystem-course)  
-**Module**: Accessibility Engineering & Verification  
-**Lesson**: `m05l02`
+Module 5: Accessibility Engineering & Verification · lesson 5.2 · Pro · [Open the lesson](https://learnsome.tech/learn/designsystem-course/m05l02)
 
-## Links
+**Goal:** You can implement professional keyboard navigation protocols for composite widgets using roving tabindex and virtual focus with aria-activedescendant.
 
-- [Watch lesson](https://learnsome.tech/courses/designsystem-course/watch?lesson=m05l02)
-- [Handbook](https://learnsome.tech/courses/designsystem-course/book#lesson-5-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l02-02](m05l02-02/) | Roving Vs Virtual Focus | Graded |
 
-- [`m05l02-02/`](m05l02-02/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Build an Accessible Radio Group with Arrow Key Navigation
+
+1. Create a RadioGroup primitive managing roving tabindex across radios.
+2. Handle ArrowDown and ArrowRight to select and focus the next radio.
+3. Handle ArrowUp and ArrowLeft to select and focus the previous radio.
+4. Assert that only the currently selected radio has tabindex zero.
+
+> **Hint:** Listen to onKeyDown for ArrowUp/Down/Left/Right and call focus() on target.
+
+## Check yourself
+
+- Why should a toolbar or menu only represent a single tab stop in page navigation?
+- How does roving tabindex ensure that pressing Tab leaves the composite widget?
+- Why is aria-activedescendant essential for combobox and autocomplete search inputs?
+- How do Home and End keyboard shortcuts improve accessibility in large list widgets?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Design Systems & Component Engineering on LearnSome.tech](https://learnsome.tech/courses/designsystem-course)

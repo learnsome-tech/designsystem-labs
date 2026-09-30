@@ -1,0 +1,21 @@
+{
+  "lab": "m03l02-02",
+  "lesson": "m03l02",
+  "title": "Composable Card Slots",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx composable_card_slots.tsx",
+  "main": "composable_card_slots.tsx",
+  "files": [
+    "composable_card_slots.tsx",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

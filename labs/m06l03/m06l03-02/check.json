@@ -1,0 +1,21 @@
+{
+  "lab": "m06l03-02",
+  "lesson": "m06l03",
+  "title": "Package Exports Resolution",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx package_exports_resolution.tsx",
+  "main": "package_exports_resolution.tsx",
+  "files": [
+    "package_exports_resolution.tsx",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

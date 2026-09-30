@@ -1,0 +1,22 @@
+{
+  "lab": "m02l03-02",
+  "lesson": "m02l03",
+  "title": "Theme Contrast Resolver",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx theme_contrast_resolver.tsx",
+  "main": "theme_contrast_resolver.tsx",
+  "files": [
+    "dom-shim.ts",
+    "run.sh",
+    "theme_contrast_resolver.tsx",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

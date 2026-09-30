@@ -1,0 +1,21 @@
+{
+  "lab": "m01l04-02",
+  "lesson": "m01l04",
+  "title": "Oklch Color Scale",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx oklch_color_scale.tsx",
+  "main": "oklch_color_scale.tsx",
+  "files": [
+    "oklch_color_scale.tsx",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

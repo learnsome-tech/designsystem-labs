@@ -1,0 +1,22 @@
+{
+  "lab": "m04l02-02",
+  "lesson": "m04l02",
+  "title": "Focus Trap Restoration",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx focus_trap_restoration.tsx",
+  "main": "focus_trap_restoration.tsx",
+  "files": [
+    "dom-shim.ts",
+    "focus_trap_restoration.tsx",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

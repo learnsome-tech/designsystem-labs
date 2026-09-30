@@ -1,0 +1,22 @@
+{
+  "lab": "m02l01-02",
+  "lesson": "m02l01",
+  "title": "Css Custom Props Theming",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx css_custom_props_theming.tsx",
+  "main": "css_custom_props_theming.tsx",
+  "files": [
+    "css_custom_props_theming.tsx",
+    "dom-shim.ts",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

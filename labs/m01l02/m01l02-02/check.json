@@ -1,0 +1,21 @@
+{
+  "lab": "m01l02-02",
+  "lesson": "m01l02",
+  "title": "Dtcg Token Resolver",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx dtcg_token_resolver.tsx",
+  "main": "dtcg_token_resolver.tsx",
+  "files": [
+    "dtcg_token_resolver.tsx",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

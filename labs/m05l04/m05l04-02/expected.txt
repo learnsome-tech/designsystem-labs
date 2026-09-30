@@ -1,5 +1,0 @@
-Violations: 1
-Rule: button-name
-Impact: critical
-Nodes: 1
-Passes: 1

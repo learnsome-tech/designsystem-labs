@@ -1,19 +1,35 @@
-# Token Transformation: Style Dictionary & Multi-Platform Outputs
+# m01l03 · Token Transformation: Style Dictionary & Multi-Platform Outputs
 
-**Course**: [Design Systems & Component Engineering](https://learnsome.tech/courses/designsystem-course)  
-**Module**: Foundations & Design Token Architecture  
-**Lesson**: `m01l03`
+Module 1: Foundations & Design Token Architecture · lesson 1.3 · Free · [Open the lesson](https://learnsome.tech/learn/designsystem-course/m01l03)
 
-## Links
+**Goal:** You can configure Style Dictionary transformation pipelines, build custom value transforms, and export design tokens into CSS custom properties, TypeScript, and native mobile formats.
 
-- [Watch lesson](https://learnsome.tech/courses/designsystem-course/watch?lesson=m01l03)
-- [Handbook](https://learnsome.tech/courses/designsystem-course/book#lesson-1-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m01l03-02](m01l03-02/) | Style Dictionary Pipeline | Graded |
 
-- [`m01l03-02/`](m01l03-02/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Build a Multi-Platform Style Dictionary Pipeline
+
+1. Configure a Style Dictionary pipeline with custom transforms.
+2. Transform pixel dimension tokens to responsive rem measurements.
+3. Format output into both CSS custom properties and TypeScript types.
+4. Validate that downstream compilers receive type safe token values.
+
+> **Hint:** Divide pixel values by 16 and append the rem string suffix.
+
+## Check yourself
+
+- What is the difference between a Transform and a Formatter in Style Dictionary?
+- Why are pixel spacing tokens converted to rem units for modern web targets?
+- How does generating TypeScript definitions alongside CSS variables benefit developers?
+- How can CI pipelines automate design token delivery when designers update Figma?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Design Systems & Component Engineering on LearnSome.tech](https://learnsome.tech/courses/designsystem-course)

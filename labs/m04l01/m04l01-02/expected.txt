@@ -1,4 +1,0 @@
-Body scroll: hidden
-Root inert: true
-Portal mounted: true
-Modal text: Modal Content

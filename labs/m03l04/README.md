@@ -1,19 +1,35 @@
-# Polymorphism & Slotted Composition: The asChild Pattern
+# m03l04 · Polymorphism & Slotted Composition: The asChild Pattern
 
-**Course**: [Design Systems & Component Engineering](https://learnsome.tech/courses/designsystem-course)  
-**Module**: Headless Primitives & Component API Design  
-**Lesson**: `m03l04`
+Module 3: Headless Primitives & Component API Design · lesson 3.4 · Pro · [Open the lesson](https://learnsome.tech/learn/designsystem-course/m03l04)
 
-## Links
+**Goal:** You can implement polymorphic UI components using the asChild and Slot composition patterns, safely merging props, event handlers, and refs without DOM wrapper overhead.
 
-- [Watch lesson](https://learnsome.tech/courses/designsystem-course/watch?lesson=m03l04)
-- [Handbook](https://learnsome.tech/courses/designsystem-course/book#lesson-3-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l04-02](m03l04-02/) | Aschild Slot Pattern | Graded |
 
-- [`m03l04-02/`](m03l04-02/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Build an asChild Compatible NavLink Primitive
+
+1. Create a polymorphic NavLink primitive supporting asChild.
+2. Implement props merging for active styles and aria-current.
+3. Render NavLink wrapping a framework routing anchor element.
+4. Verify that DOM output contains a single anchor without extra divs.
+
+> **Hint:** Use React.cloneElement to merge className and aria-current onto children.
+
+## Check yourself
+
+- Why does the asChild pattern provide better TypeScript ergonomics than the as prop?
+- How does the Slot primitive merge className props between parent and child?
+- Why must event handlers be composed rather than replaced when cloning children?
+- How does eliminating intermediate wrapper divs protect CSS flexbox and grid layouts?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Design Systems & Component Engineering on LearnSome.tech](https://learnsome.tech/courses/designsystem-course)

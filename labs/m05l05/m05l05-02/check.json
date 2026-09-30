@@ -1,0 +1,21 @@
+{
+  "lab": "m05l05-02",
+  "lesson": "m05l05",
+  "title": "Contrast And Motion Auditing",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx contrast_and_motion_auditing.tsx",
+  "main": "contrast_and_motion_auditing.tsx",
+  "files": [
+    "contrast_and_motion_auditing.tsx",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

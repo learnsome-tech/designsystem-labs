@@ -1,0 +1,22 @@
+{
+  "lab": "m06l01-02",
+  "lesson": "m06l01",
+  "title": "Storybook Csf3 Workflows",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx storybook_csf3_workflows.tsx",
+  "main": "storybook_csf3_workflows.tsx",
+  "files": [
+    "dom-shim.ts",
+    "run.sh",
+    "storybook_csf3_workflows.tsx",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

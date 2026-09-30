@@ -1,19 +1,35 @@
-# Design Tokens: W3C Specs, Global, Semantic & Component Tokens
+# m01l02 · Design Tokens: W3C Specs, Global, Semantic & Component Tokens
 
-**Course**: [Design Systems & Component Engineering](https://learnsome.tech/courses/designsystem-course)  
-**Module**: Foundations & Design Token Architecture  
-**Lesson**: `m01l02`
+Module 1: Foundations & Design Token Architecture · lesson 1.2 · Free · [Open the lesson](https://learnsome.tech/learn/designsystem-course/m01l02)
 
-## Links
+**Goal:** You can author W3C-compliant design tokens, structure three-tier token hierarchies (Global, Semantic, Component), and resolve alias references programmatically.
 
-- [Watch lesson](https://learnsome.tech/courses/designsystem-course/watch?lesson=m01l02)
-- [Handbook](https://learnsome.tech/courses/designsystem-course/book#lesson-1-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m01l02-02](m01l02-02/) | Dtcg Token Resolver | Graded |
 
-- [`m01l02-02/`](m01l02-02/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Build a Multi-Tier Token Alias Resolver
+
+1. Structure a W3C compliant JSON token file across three tiers.
+2. Create global palette tokens, semantic decision aliases, and buttons.
+3. Write a recursive resolver resolving aliases denoted by curly braces.
+4. Assert that component tokens resolve to correct global raw values.
+
+> **Hint:** Check regex match for curly braces and recurse with incremented depth.
+
+## Check yourself
+
+- What is the role of $value and $type in the W3C DTCG design token specification?
+- Why should components consume semantic tokens rather than raw global tokens?
+- How does a three-tier token hierarchy simplify implementing dark mode?
+- How do alias references between tokens prevent duplication in design systems?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Design Systems & Component Engineering on LearnSome.tech](https://learnsome.tech/courses/designsystem-course)

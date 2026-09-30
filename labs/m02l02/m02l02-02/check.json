@@ -1,0 +1,21 @@
+{
+  "lab": "m02l02-02",
+  "lesson": "m02l02",
+  "title": "Tailwind V4 Theme Engine",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx tailwind_v4_theme_engine.tsx",
+  "main": "tailwind_v4_theme_engine.tsx",
+  "files": [
+    "run.sh",
+    "tailwind_v4_theme_engine.tsx",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

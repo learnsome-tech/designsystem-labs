@@ -1,0 +1,22 @@
+{
+  "lab": "m05l03-02",
+  "lesson": "m05l03",
+  "title": "Live Regions Announcements",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx live_regions_announcements.tsx",
+  "main": "live_regions_announcements.tsx",
+  "files": [
+    "dom-shim.ts",
+    "live_regions_announcements.tsx",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

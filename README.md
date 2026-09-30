@@ -1,68 +1,126 @@
-<img src="https://learnsome.tech/logo.png" width="48" alt="LearnSome.tech">
+<p>
+  <a href="https://learnsome.tech/courses/designsystem-course">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/wordmark-inverse.svg">
+      <img src=".github/assets/wordmark.svg" alt="LearnSome.tech" width="260">
+    </picture>
+  </a>
+</p>
 
 # Design Systems & Component Engineering
 
-6 modules, 28 lessons: Foundations & Design Token Architecture; Styling Engines, Theming & CSS Architecture; Headless Primitives & Component API Design; Complex Stateful Overlay Primitives; Accessibility Engineering & Verification; Testing, Documentation & Distribution.
+**Design Tokens, Theming, Headless Primitives, Accessibility & Distribution**
 
-## Watch and read
+6 modules, 28 lessons: Foundations & Design Token Architecture; Styling Engines, Theming & CSS Architecture; Headless Primitives & Component API Design; Complex Stateful Overlay Primitives; Accessibility Engineering & Verification; Testing, Documentation & Distribution. Advanced level, about 1 hour.
 
-- **Course page**: [https://learnsome.tech/courses/designsystem-course](https://learnsome.tech/courses/designsystem-course)
-- **Video player**: [https://learnsome.tech/courses/designsystem-course/watch](https://learnsome.tech/courses/designsystem-course/watch)
-- **Handbook PDF**: [https://learnsome.tech/handbooks/designsystem/book.pdf](https://learnsome.tech/handbooks/designsystem/book.pdf)
-- **On-site handbook**: [https://learnsome.tech/courses/designsystem-course/book](https://learnsome.tech/courses/designsystem-course/book)
+This repository holds the labs of the LearnSome.tech course [Design Systems & Component Engineering](https://learnsome.tech/courses/designsystem-course): each lab's starter files, a README with the goal, the steps and the expected output, and `./check`, which tests your work the way the site does.
 
-## What is in this repository
+## Start
 
-This repository contains code artifacts, exercises and reference files for the lessons in this course.
-28 lessons include a `labs/<lessonId>/` folder.
-Each folder is named after the lesson identifier (e.g. `labs/m01l01/`) and contains the
-artifact files shown in the course video, an `EXERCISES.md` with hands-on tasks, and
-sub-directories named by artifact reference (e.g. `m01l01-02/`).
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/learnsome-tech/designsystem-labs?quickstart=1)
 
-## Lessons
+- **Codespaces:** the badge opens this repository in a dev container with Node.js 24.21.0, as in the site's lab sandbox.
+- **On your machine:**
 
-| # | Lesson | Watch | Labs | Handbook |
-|---|--------|-------|------|----------|
-| | **Foundations & Design Token Architecture** | | | |
-| 1 | Design Systems Architecture: Foundations, Layers & Taxonomy | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m01l01) | [labs/m01l01/](labs/m01l01/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-1-1) |
-| 2 | Design Tokens: W3C Specs, Global, Semantic & Component Tokens | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m01l02) | [labs/m01l02/](labs/m01l02/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-1-2) |
-| 3 | Token Transformation: Style Dictionary & Multi-Platform Outputs | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m01l03) | [labs/m01l03/](labs/m01l03/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-1-3) |
-| 4 | Modern Color Spaces: OKLCH, Gamut Mapping & APCA Contrast | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m01l04) | [labs/m01l04/](labs/m01l04/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-1-4) |
-| 5 | Typography & Spatial Grids: Modular Scales & Fluid Typography | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m01l05) | [labs/m01l05/](labs/m01l05/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-1-5) |
-| | **Styling Engines, Theming & CSS Architecture** | | | |
-| 6 | CSS Custom Properties & Dynamic Theming Architecture | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m02l01) | [labs/m02l01/](labs/m02l01/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-2-1) |
-| 7 | Tailwind CSS v4 Engine: CSS Variables & Theme Extensions | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m02l02) | [labs/m02l02/](labs/m02l02/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-2-2) |
-| 8 | Dark Mode Strategies: System Preference, Class & High-Contrast | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m02l03) | [labs/m02l03/](labs/m02l03/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-2-3) |
-| 9 | Class Variance Authority: Type-Safe Variant & Prop Orchestration | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m02l04) | [labs/m02l04/](labs/m02l04/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-2-4) |
-| | **Headless Primitives & Component API Design** | | | |
-| 10 | Headless Architecture: State vs Presentation Separation | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m03l01) | [labs/m03l01/](labs/m03l01/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-3-1) |
-| 11 | Component API Ergonomics: Composition vs Boolean Config Props | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m03l02) | [labs/m03l02/](labs/m03l02/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-3-2) |
-| 12 | Compound Component Patterns: Context Sharing & Internal State | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m03l03) | [labs/m03l03/](labs/m03l03/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-3-3) |
-| 13 | Polymorphism & Slotted Composition: The asChild Pattern | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m03l04) | [labs/m03l04/](labs/m03l04/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-3-4) |
-| 14 | Actionable Form Primitives: Buttons, Switches & Inputs | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m03l05) | [labs/m03l05/](labs/m03l05/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-3-5) |
-| | **Complex Stateful Overlay Primitives** | | | |
-| 15 | Overlay Architecture: Portals, Stacking Contexts & Backdrops | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m04l01) | [labs/m04l01/](labs/m04l01/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-4-1) |
-| 16 | Focus Management: Trapping, Restoration & Focus Rings | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m04l02) | [labs/m04l02/](labs/m04l02/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-4-2) |
-| 17 | Modal Dialogs & Alert Dialogs: Accessible Overlay Patterns | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m04l03) | [labs/m04l03/](labs/m04l03/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-4-3) |
-| 18 | Floating Primitives: Popovers, Tooltips & Positioning | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m04l04) | [labs/m04l04/](labs/m04l04/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-4-4) |
-| 19 | Navigation & Disclosure: Dropdown Menus, Tabs & Accordions | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m04l05) | [labs/m04l05/](labs/m04l05/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-4-5) |
-| | **Accessibility Engineering & Verification** | | | |
-| 20 | WAI-ARIA Semantics: Roles, States & Accessible Name Computation | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m05l01) | [labs/m05l01/](labs/m05l01/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-5-1) |
-| 21 | Keyboard Navigation Protocols: Roving Tabindex & Virtual Focus | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m05l02) | [labs/m05l02/](labs/m05l02/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-5-2) |
-| 22 | Screen Reader Interactions: Live Regions & Announcement Cues | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m05l03) | [labs/m05l03/](labs/m05l03/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-5-3) |
-| 23 | Automated Accessibility Testing: axe-core & Testing Library | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m05l04) | [labs/m05l04/](labs/m05l04/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-5-4) |
-| 24 | Visual Contrast Auditing: Color Blindness & Reduced Motion | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m05l05) | [labs/m05l05/](labs/m05l05/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-5-5) |
-| | **Testing, Documentation & Distribution** | | | |
-| 25 | Storybook & Component Driven Development Workflows | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m06l01) | [labs/m06l01/](labs/m06l01/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-6-1) |
-| 26 | Visual Regression Testing: Playwright & Snapshot Differencing | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m06l02) | [labs/m06l02/](labs/m06l02/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-6-2) |
-| 27 | Component Packaging: Dual ESM/CJS Builds & Package Exports | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m06l03) | [labs/m06l03/](labs/m06l03/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-6-3) |
-| 28 | System Governance: Changesets, Semantic Versioning & Deprecation | [▶](https://learnsome.tech/courses/designsystem-course/watch?lesson=m06l04) | [labs/m06l04/](labs/m06l04/) | [§](https://learnsome.tech/courses/designsystem-course/book#lesson-6-4) |
+  ```sh
+  git clone https://github.com/learnsome-tech/designsystem-labs.git
+  cd designsystem-labs
+  npm ci
+  ./check m01l01-02
+  ```
 
-## Exercises
+  You need Node.js for `./check`, and for the labs themselves Node.js 24.21.0. Other versions mostly work, but only the sandbox's versions are sure to print what the site prints. VS Code's Dev Containers extension builds the same container as Codespaces (x86-64).
 
-Each lesson folder contains an `EXERCISES.md` with hands-on tasks drawn directly from the course material.
-Open the file for a lesson to see the tasks and, where provided, hints.
+## Doing a lab
 
----
+1. Open the lesson on LearnSome.tech and the lab folder beside it: `labs/<lesson>/<lab>/`. The lab README has the goal, the steps and the expected output.
+2. Work in the lab's `starter/` folder.
+3. From the repository root, run `./check <lab>` (for example `./check m01l01-02`), or `./check <lesson>` for all labs of a lesson, or `./check --all`. `./check --list` shows every lab and how it is checked.
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+`./check` runs your starter the way the site's lab sandbox does: in a scratch copy that is its working directory and `HOME`, with `LANG=C.UTF-8`, `TZ=UTC`, `input.txt` on standard input, 10 seconds and 256 KiB of output per stream. It then compares the output with the site's own rules, so a pass here is a pass on the site.
+
+| Check | What `./check` does | Labs |
+| --- | --- | --- |
+| Graded | Runs the program and compares its output with `expected.txt`. | 26 |
+| Runs, not graded | Runs the program and shows its output; the site gives no pass or fail, and the lab README says why. | 1 |
+| Read along | Nothing to run here: the site shows the listing read-only, and the lab README says honestly what it needs (Docker, a cluster, a cloud account...). | 1 |
+
+## What is published, and what is not
+
+Every lab's starter is the code the lesson shows on screen, which is also what the lab editor on the site opens with. Where that code is the whole program, such as a recorded shell session or a script from the video, it is published as it is: it is the lesson content. Nothing beyond the lesson is published. There are no reference solutions and no answers to the lesson exercises, and nothing the site keeps private.
+
+Pro lessons' labs are here as starters too. LearnSome.tech runs and grades your labs in its sandbox, hosts the videos and keeps your progress; running and grading a Pro lab on the site needs Pro.
+
+## Modules and lessons
+
+### Module 1: Foundations & Design Token Architecture
+
+| # | Lesson | Labs | Access |
+| --- | --- | --- | --- |
+| 1.1 | [Design Systems Architecture: Foundations, Layers & Taxonomy](https://learnsome.tech/learn/designsystem-course/m01l01) | [1 lab](labs/m01l01/) | Free |
+| 1.2 | [Design Tokens: W3C Specs, Global, Semantic & Component Tokens](https://learnsome.tech/learn/designsystem-course/m01l02) | [1 lab](labs/m01l02/) | Free |
+| 1.3 | [Token Transformation: Style Dictionary & Multi-Platform Outputs](https://learnsome.tech/learn/designsystem-course/m01l03) | [1 lab](labs/m01l03/) | Free |
+| 1.4 | [Modern Color Spaces: OKLCH, Gamut Mapping & APCA Contrast](https://learnsome.tech/learn/designsystem-course/m01l04) | [1 lab](labs/m01l04/) | Free |
+| 1.5 | [Typography & Spatial Grids: Modular Scales & Fluid Typography](https://learnsome.tech/learn/designsystem-course/m01l05) | [1 lab](labs/m01l05/) | Free |
+
+### Module 2: Styling Engines, Theming & CSS Architecture
+
+| # | Lesson | Labs | Access |
+| --- | --- | --- | --- |
+| 2.1 | [CSS Custom Properties & Dynamic Theming Architecture](https://learnsome.tech/learn/designsystem-course/m02l01) | [1 lab](labs/m02l01/) | Pro |
+| 2.2 | [Tailwind CSS v4 Engine: CSS Variables & Theme Extensions](https://learnsome.tech/learn/designsystem-course/m02l02) | [1 lab](labs/m02l02/) | Pro |
+| 2.3 | [Dark Mode Strategies: System Preference, Class & High-Contrast](https://learnsome.tech/learn/designsystem-course/m02l03) | [1 lab](labs/m02l03/) | Pro |
+| 2.4 | [Class Variance Authority: Type-Safe Variant & Prop Orchestration](https://learnsome.tech/learn/designsystem-course/m02l04) | [1 lab](labs/m02l04/) | Pro |
+
+### Module 3: Headless Primitives & Component API Design
+
+| # | Lesson | Labs | Access |
+| --- | --- | --- | --- |
+| 3.1 | [Headless Architecture: State vs Presentation Separation](https://learnsome.tech/learn/designsystem-course/m03l01) | [1 lab](labs/m03l01/) | Pro |
+| 3.2 | [Component API Ergonomics: Composition vs Boolean Config Props](https://learnsome.tech/learn/designsystem-course/m03l02) | [1 lab](labs/m03l02/) | Pro |
+| 3.3 | [Compound Component Patterns: Context Sharing & Internal State](https://learnsome.tech/learn/designsystem-course/m03l03) | [1 lab](labs/m03l03/) | Pro |
+| 3.4 | [Polymorphism & Slotted Composition: The asChild Pattern](https://learnsome.tech/learn/designsystem-course/m03l04) | [1 lab](labs/m03l04/) | Pro |
+| 3.5 | [Actionable Form Primitives: Buttons, Switches & Inputs](https://learnsome.tech/learn/designsystem-course/m03l05) | [1 lab](labs/m03l05/) | Pro |
+
+### Module 4: Complex Stateful Overlay Primitives
+
+| # | Lesson | Labs | Access |
+| --- | --- | --- | --- |
+| 4.1 | [Overlay Architecture: Portals, Stacking Contexts & Backdrops](https://learnsome.tech/learn/designsystem-course/m04l01) | [1 lab](labs/m04l01/) | Pro |
+| 4.2 | [Focus Management: Trapping, Restoration & Focus Rings](https://learnsome.tech/learn/designsystem-course/m04l02) | [1 lab](labs/m04l02/) | Pro |
+| 4.3 | [Modal Dialogs & Alert Dialogs: Accessible Overlay Patterns](https://learnsome.tech/learn/designsystem-course/m04l03) | [1 lab](labs/m04l03/) | Pro |
+| 4.4 | [Floating Primitives: Popovers, Tooltips & Positioning](https://learnsome.tech/learn/designsystem-course/m04l04) | [1 lab](labs/m04l04/) | Pro |
+| 4.5 | [Navigation & Disclosure: Dropdown Menus, Tabs & Accordions](https://learnsome.tech/learn/designsystem-course/m04l05) | [1 lab](labs/m04l05/) | Pro |
+
+### Module 5: Accessibility Engineering & Verification
+
+| # | Lesson | Labs | Access |
+| --- | --- | --- | --- |
+| 5.1 | [WAI-ARIA Semantics: Roles, States & Accessible Name Computation](https://learnsome.tech/learn/designsystem-course/m05l01) | [1 lab](labs/m05l01/) | Pro |
+| 5.2 | [Keyboard Navigation Protocols: Roving Tabindex & Virtual Focus](https://learnsome.tech/learn/designsystem-course/m05l02) | [1 lab](labs/m05l02/) | Pro |
+| 5.3 | [Screen Reader Interactions: Live Regions & Announcement Cues](https://learnsome.tech/learn/designsystem-course/m05l03) | [1 lab](labs/m05l03/) | Pro |
+| 5.4 | [Automated Accessibility Testing: axe-core & Testing Library](https://learnsome.tech/learn/designsystem-course/m05l04) | [1 lab](labs/m05l04/) | Pro |
+| 5.5 | [Visual Contrast Auditing: Color Blindness & Reduced Motion](https://learnsome.tech/learn/designsystem-course/m05l05) | [1 lab](labs/m05l05/) | Pro |
+
+### Module 6: Testing, Documentation & Distribution
+
+| # | Lesson | Labs | Access |
+| --- | --- | --- | --- |
+| 6.1 | [Storybook & Component Driven Development Workflows](https://learnsome.tech/learn/designsystem-course/m06l01) | [1 lab](labs/m06l01/) | Pro |
+| 6.2 | [Visual Regression Testing: Playwright & Snapshot Differencing](https://learnsome.tech/learn/designsystem-course/m06l02) | [1 lab](labs/m06l02/) | Pro |
+| 6.3 | [Component Packaging: Dual ESM/CJS Builds & Package Exports](https://learnsome.tech/learn/designsystem-course/m06l03) | [1 lab](labs/m06l03/) | Pro |
+| 6.4 | [System Governance: Changesets, Semantic Versioning & Deprecation](https://learnsome.tech/learn/designsystem-course/m06l04) | [1 lab](labs/m06l04/) | Pro |
+
+**Free** lessons are open to anyone with a free LearnSome.tech account; **Pro** lessons need a Pro membership to watch, run and grade on the site.
+
+## Licence
+
+- **Code** (starter files, `check` and `.learnsome/`, the dev container and the workflows) is under the [MIT licence](LICENSE).
+- **Written text** (the READMEs, lab instructions, lesson text, exercises and questions) is under [CC BY-NC-SA 4.0](LICENSE-text.md): share and adapt it with attribution to LearnSome.tech, not commercially, under the same licence.
+- The LearnSome.tech name and logo are not covered by either licence.
+
+## Contributing and security
+
+This repository is generated from the course. Report a broken lab or a content error [as an issue](../../issues/new/choose); see [CONTRIBUTING.md](CONTRIBUTING.md). Security reports go to [SECURITY.md](SECURITY.md).
+
+© 2026 LearnSome.tech

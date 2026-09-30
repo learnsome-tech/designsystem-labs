@@ -1,0 +1,21 @@
+{
+  "lab": "m04l05-02",
+  "lesson": "m04l05",
+  "title": "Menu Roving Navigation",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx menu_roving_navigation.tsx",
+  "main": "menu_roving_navigation.tsx",
+  "files": [
+    "menu_roving_navigation.tsx",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

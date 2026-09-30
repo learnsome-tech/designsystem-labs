@@ -1,0 +1,21 @@
+{
+  "lab": "m04l04-02",
+  "lesson": "m04l04",
+  "title": "Floating Positioning Primitives",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx floating_positioning_primitives.tsx",
+  "main": "floating_positioning_primitives.tsx",
+  "files": [
+    "floating_positioning_primitives.tsx",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}

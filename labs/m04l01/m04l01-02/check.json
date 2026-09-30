@@ -1,0 +1,22 @@
+{
+  "lab": "m04l01-02",
+  "lesson": "m04l01",
+  "title": "Portal Overlay Architecture",
+  "mode": "run",
+  "runner": "tsx",
+  "command": "tsx portal_overlay_architecture.tsx",
+  "main": "portal_overlay_architecture.tsx",
+  "files": [
+    "dom-shim.ts",
+    "portal_overlay_architecture.tsx",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "tsx"
+  ],
+  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+}

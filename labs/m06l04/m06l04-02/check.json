@@ -1,0 +1,21 @@
+{
+  "lab": "m06l04-02",
+  "lesson": "m06l04",
+  "title": "Governance Semver Deprecation",
+  "mode": "graded",
+  "runner": "tsx",
+  "command": "tsx governance_semver_deprecation.tsx",
+  "main": "governance_semver_deprecation.tsx",
+  "files": [
+    "governance_semver_deprecation.tsx",
+    "run.sh",
+    "tsconfig.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "tsx"
+  ],
+  "note": null
+}
